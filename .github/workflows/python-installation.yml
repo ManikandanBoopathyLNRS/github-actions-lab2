@@ -10,8 +10,8 @@ jobs:
           - 3.8
           - 3.9
         os: 
-          - macos-12
           - ubuntu-latest
+          - macos-12
           - windows-latest
         exclude:
           - os: macos-12
