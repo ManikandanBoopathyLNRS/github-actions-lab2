@@ -14,10 +14,10 @@ jobs:
           - macos-12
           - ubuntu-latest
           - windows-latest
-    runs-on: ${{ matrix.os }}
+    runs-on: '${{ matrix.os }}'
     steps:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: ${{ matrix.py-version }}
+        python-version: '${{ matrix.py-version }}'
         
